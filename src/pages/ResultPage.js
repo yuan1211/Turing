@@ -11,7 +11,7 @@ function ResultPage({ score, setScore }) {
 
     };
 
-    const endingMent = score >= 3 ? '당신은 감별왕입니다!' : '당신은 감자입니다!'
+    const endingMent = score >= 3 ? '자네는 졸업일세!' : '졸업은 꿈도 꾸지 말게!!'
 
     return (
         <div className="container">

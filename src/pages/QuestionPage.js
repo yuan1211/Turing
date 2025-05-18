@@ -47,8 +47,7 @@ function QuestionPage({score, setScore}) {
 
     return (
         <div className="container">
-            <h1>AI vs 인간</h1>
-            <h3>문제 {questionIndex + 1} </h3>
+            <h1>과제 {questionIndex + 1}</h1>
 
             <div className="question"> {current.content}</div>
 
@@ -58,21 +57,21 @@ function QuestionPage({score, setScore}) {
                     onClick={() => handleAnswer('human')}
                     disabled={update}
                 >
-                    👤 사람이다
+                    학생
                 </button>
                 <button
                     className="choice-button ai"
                     onClick={() => handleAnswer('AI')}
                     disabled={update}
                 >
-                    🤖 AI다
+                    AI
                 </button>
             </div>
 
             {update && (
                 <div className="answer">
                     <br />
-                    {answer === current.author ? '정답이에요!' : '틀렸어요!'}
+                    {answer === current.author ? '정답입니다!' : '틀렸어요!'}
                 </div>
             )}
 
