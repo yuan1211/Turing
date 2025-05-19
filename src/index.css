@@ -9,27 +9,28 @@ body {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
-  padding: 40px;
-  padding-top: 50px; /* 원하는 만큼 내려서 정중앙보다 위 느낌 */
+  padding: 60px;
+  padding-top: 70px;
   background-color: #fffdf8;
   border-radius: 16px;
   box-shadow: 0 0 20px rgba(180, 160, 120, 0.15);
-  transform: translateY(10vh); /* 화면 위쪽에 더 가까이 배치됨 */
+  transform: translateY(10vh);
+  font-size: 24px;
 }
 
 
 
 h1 {
-  font-size: 36px;
+  font-size: 50px;
   color: #8d6e63;
   margin-bottom: 20px;
   font-weight: 600;
 }
 
 .question {
-  font-size: 20px;
+  font-size: 25px;
   background-color: #f8f1e8;
   padding: 24px;
   border-radius: 12px;
@@ -50,7 +51,7 @@ h1 {
 .choice-button {
   width: 200px;
   padding: 16px;
-  font-size: 18px;
+  font-size: 20px;
   border-radius: 15px;
   border: none;
   cursor: pointer;
@@ -85,7 +86,7 @@ h1 {
 
 .next-button {
   padding: 14px 25px;
-  font-size: 17px;
+  font-size: 19px;
   background-color: #c5e1a5;
   color: #2e3b2e;
   border: none;
