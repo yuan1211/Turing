@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Turing/static/css/main.f7f05ce7.css",
+    "main.js": "/Turing/static/js/main.21b9c10e.js",
+    "static/js/453.93ec9428.chunk.js": "/Turing/static/js/453.93ec9428.chunk.js",
+    "static/media/Sad.png": "/Turing/static/media/Sad.733497282796fd305d16.png",
+    "static/media/happy.png": "/Turing/static/media/happy.aff5b4b3b675bdec0354.png",
+    "index.html": "/Turing/index.html",
+    "main.f7f05ce7.css.map": "/Turing/static/css/main.f7f05ce7.css.map",
+    "main.21b9c10e.js.map": "/Turing/static/js/main.21b9c10e.js.map",
+    "453.93ec9428.chunk.js.map": "/Turing/static/js/453.93ec9428.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7f05ce7.css",
+    "static/js/main.21b9c10e.js"
+  ]
+}
